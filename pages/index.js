@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 // 🚨🚨🚨 여기에 Railway에서 생성한 PUBLIC DOMAIN 주소를 붙여넣으세요! 🚨🚨🚨
-const BACKEND_URL = "https://final-project-production-fbf1.up.railway.app/"; 
+const BACKEND_URL = "https://final-project-production-fbf1.up.railway.app"; 
 
 // -------------------------------------------------------------
 // AI 자동 기장 시뮬레이션 컴포넌트
@@ -192,3 +192,4 @@ export default function Home() {
         </div>
     );
 }
+
